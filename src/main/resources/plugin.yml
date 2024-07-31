@@ -1,0 +1,12 @@
+name: aneCustomToast
+version: '1.0'
+main: me.anemys.anecustomtoast.AneCustomToast
+api-version: '1.17'
+commands:
+  anetoast:
+    description: Shows a custom advancement toast message
+    usage: /<command> /anetoast <type> <frame> <player> <title> <icon>
+permissions:
+  anetoast.use:
+    description: Permission
+    default: op
